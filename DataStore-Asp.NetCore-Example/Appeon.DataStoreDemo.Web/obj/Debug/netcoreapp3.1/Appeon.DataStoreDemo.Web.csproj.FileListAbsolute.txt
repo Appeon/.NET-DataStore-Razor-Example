@@ -1,0 +1,202 @@
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.exe
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.deps.json
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.runtimeconfig.json
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.runtimeconfig.dev.json
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.pdb
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.Views.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.Views.pdb
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Antlr4.Runtime.Standard.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\DWNet.Data.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\JetBrains.Annotations.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\SnapObjects.Data.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\SnapObjects.Data.AspNetCore.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\SnapObjects.Data.SqlServer.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Utf8Json.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Service.SqlServer.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Service.SqlServer.pdb
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.csprojAssemblyReference.cache
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.AssemblyInfoInputs.cache
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.AssemblyInfo.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.csproj.CoreCompileInputs.cache
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.RazorAssemblyInfo.cache
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.RazorAssemblyInfo.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.TagHelpers.input.cache
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.TagHelpers.output.cache
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.RazorCoreGenerate.cache
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\SalesOrders\Create.cshtml.g.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\SalesOrders\Edit.cshtml.g.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\SalesOrders\Index.cshtml.g.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.RazorTargetAssemblyInfo.cache
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.RazorTargetAssemblyInfo.cs
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.Views.pdb
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.csproj.CopyComplete
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\staticwebassets\Appeon.DataStoreDemo.Web.StaticWebAssets.Manifest.cache
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\staticwebassets\Appeon.DataStoreDemo.Web.StaticWebAssets.xml
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.dll
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.pdb
+C:\Users\appeon\Desktop\New folder\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.genruntimeconfig.cache
+C:\Users\Vico\Desktop\Sales Demo\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.dll
+C:\Users\Vico\Desktop\Sales Demo\Razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.pdb
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\appsettings.json
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.exe
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.deps.json
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.runtimeconfig.json
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.runtimeconfig.dev.json
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.pdb
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.Views.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.Views.pdb
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Antlr4.Runtime.Standard.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\DWNet.Data.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\JetBrains.Annotations.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\SnapObjects.Data.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\SnapObjects.Data.AspNetCore.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\SnapObjects.Data.SqlServer.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Utf8Json.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Service.SqlServer.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\bin\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Service.SqlServer.pdb
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.csprojAssemblyReference.cache
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.AssemblyInfoInputs.cache
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.AssemblyInfo.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.csproj.CoreCompileInputs.cache
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.RazorAssemblyInfo.cache
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.RazorAssemblyInfo.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.TagHelpers.input.cache
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.TagHelpers.output.cache
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.RazorCoreGenerate.cache
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\SalesOrders\Create.cshtml.g.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\SalesOrders\Edit.cshtml.g.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\SalesOrders\Index.cshtml.g.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.RazorTargetAssemblyInfo.cache
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.RazorTargetAssemblyInfo.cs
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.Views.pdb
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.csproj.CopyComplete
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\staticwebassets\Appeon.DataStoreDemo.Web.StaticWebAssets.Manifest.cache
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\staticwebassets\Appeon.DataStoreDemo.Web.StaticWebAssets.xml
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.dll
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.pdb
+C:\work\demo\code\ds\razor\DataStore-Asp.NetCore-Example\Appeon.DataStoreDemo.Web\obj\Debug\netcoreapp3.1\Appeon.DataStoreDemo.Web.genruntimeconfig.cache

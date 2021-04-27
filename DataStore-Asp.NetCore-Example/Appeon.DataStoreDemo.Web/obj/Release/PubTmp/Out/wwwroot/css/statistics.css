@@ -1,0 +1,147 @@
+.box{
+	top: 49px;
+}
+#menu .list .statistics .img {
+    background-position-y: bottom;
+}
+#browse .operationArea .checkBox{
+	margin-bottom: 5px;
+}
+#browse .operationArea .checkBox input{
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+#browse .operationArea .checkBox label{
+	vertical-align: middle;
+	margin-left: 5px;
+	font-size: 15px;
+	cursor: pointer;
+}
+#browse .operationArea .inputArea select{
+	width: 180px;
+}
+#browse .operationArea>.flex{
+	margin-top: 15px;
+}
+
+#browse .operationArea .right label{
+	font-size: 15px;
+	vertical-align: middle;
+}
+#browse .operationArea .right .zoom{
+	margin-left: 10px;
+	width: 280px;
+	height: 25px;
+	border: 1px solid #B3B3B3;
+}
+
+#browse .tableArea{
+	position: absolute;
+	top: 156px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	overflow: auto;
+}
+#browse .tableArea .categoryBox{
+	margin: 40px 0;
+	justify-content: center;
+}
+#browse .tableArea table{
+	margin: 70px 30px 0 0;
+	width: 400px;
+	min-width: initial;
+}
+.tableArea table th{
+	font-size: 14px;
+	color: #484b4a;
+	background: #f2f2f2;
+}
+.tableArea table td.right{
+	padding-right: 5px;
+	text-align: right;
+}
+#browse .tableArea .categoryBox .img{
+	border: 1px solid #B3B3B3;
+	width: 525px;
+	height: 400px;
+}
+
+#detail .operationArea .flex{
+	justify-content: flex-start;
+}
+#detail .operationArea .inputArea{
+	font-size: 14px;
+}
+#detail .operationArea select{
+	width: 140px;
+}
+#detail .operationArea input[type="text"]{
+	width: 50px;
+}
+#detail .operationArea input[type="radio"]{
+	margin-left: 10px;
+	vertical-align: middle;
+}
+#detail .operationArea input[type="button"]{
+	margin-left: 20px;
+	width: 100px;
+	height: 25px;
+	border: 1px solid #aaa;
+	background: #ccc;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#detail .operationArea .graphStyle{
+	position: relative;
+	margin-top: 20px;
+}
+#detail .operationArea .graphStyle select{
+	padding-left: 5;
+	width: 200px;
+	height: 25px;
+	border-color: #aaa;
+}
+/*#detail .operationArea .graphStyle .icon{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 89px;
+	margin: auto;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #B3B3B3;
+	cursor: pointer;
+}*/
+
+#detail .tableArea{
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	top: 113px;
+	overflow: auto;
+}
+#detail .tableArea .tableTitle{
+	margin: 50px 0 15px 0;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+#detail .tableArea .tableBox{
+	width: 1000px;
+	margin: 0 auto;
+}
+#detail .tableArea .tableBox .unit{
+	margin-bottom: 5px;
+}
+
+#detail .tableArea .tableBox .img{
+	margin: 50px 0;
+	width: 998px;
+	height: 300px;
+	border: 1px solid #B3B3B3;
+}

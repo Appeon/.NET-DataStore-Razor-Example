@@ -1,0 +1,175 @@
+.iframeBody {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #e6e6e6;
+}
+.tabList{
+	margin-top: 20px;
+}
+.tabList .tab{
+	padding: 5px 20px;
+	cursor: pointer;
+}
+.tabList .tab.select{
+	background: #b3b3b3;
+}
+.box {
+    position: fixed;
+    top: 35px;
+    right: 15px;
+    left: 150px;
+    bottom: 20px;
+    padding: 20px;
+    border: 1px solid #b3b3b3;
+    border-top-width: 2px;
+}
+.operationArea{
+	margin-bottom: 15px;
+}
+.operationArea.flex{
+	justify-content: space-between;
+	align-items: center;
+}
+.operationArea div.flex{
+	justify-content: space-between;
+	align-items: center;
+}
+.operationArea .inputArea{
+	padding: 4px 9px;
+	background: #fff;
+	font-size: 15px;
+}
+.operationArea .inputArea label{
+	vertical-align: middle;
+}
+.operationArea .inputArea select{
+	margin-right: 10px;
+	padding-left: 5px;
+	border: 1px solid #aaa;
+	width: 200px;
+	height: 25px;
+	vertical-align: middle;
+}
+.operationArea .inputArea input[type="text"]{
+	outline: none;
+	padding-left: 5px;
+	border: 1px solid #aaa;
+	width: 193px;
+	height: 23px;
+	vertical-align: middle;
+}
+.buttonArea{
+	font-size: 0;
+}
+#browse input[type='button'],
+#browse input[type='submit'],
+.buttonArea input[type='button'],
+.buttonArea input[type='submit']{
+	margin-left: 20px;
+	width: 100px;
+	height: 25px;
+	border: 1px solid #aaa;
+	background: #ccc;
+	font-size: 14px;
+	cursor: pointer;
+}
+.buttonArea input:first-child{
+	margin-left: 0;
+}
+
+.tableArea {
+    border: 1px solid #b3b3b3;
+    background: #fff;
+    overflow: auto;
+}
+
+.tableArea2 {
+    border: 1px solid #b3b3b3;
+    background: #fff;
+    overflow: auto;
+}
+.tableArea table{
+	min-width: 100%;
+	border-collapse: collapse;
+}
+.tableArea table tr{
+	height: 30px;
+}
+.tableArea table th{
+    padding: 0 10px;
+	text-align: center;
+	background: #808080;
+	font-size: 16px;
+	height: 40px;
+	color: #fff;
+	font-weight: normal;
+	border: 1px solid #e6e6e6;
+    white-space: nowrap;
+}
+.tableArea table tbody tr{
+	cursor: pointer;
+}
+.tableArea table tr.select{
+	font-size: 16px;
+	background: #bfbfbf;
+}
+.tableArea table tr td{
+	border: 1px solid #e6e6e6;
+	padding-left: 5px;
+    white-space: nowrap;
+}
+
+table .operate{
+	text-align: center;
+	font-size: 0;
+	padding: 0 10px!important;
+}
+table .operate span{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	line-height: 30px;
+	background-size: 100% 100%;
+	margin-left: 30px;
+	
+}
+table .operate a:first-child span{
+	margin-left: 0;
+}
+table .operate span.edit{
+	background-image: url(../images/edit.png);
+}
+table .operate span.del{
+	background-image: url(../images/del.png);
+}
+
+table .operate span.detail {
+    background-image: url(../images/detail.png);
+}
+table td.right{
+	padding-right: 5px;
+	text-align: right;
+}
+
+#detail .buttonArea{
+	margin: 20px 0 10px 0;
+	font-size: 0;
+}
+#detail .buttonArea input,
+#detail .buttonArea a.aBtn{
+    display: inline-block;
+	width: 77px;
+	height: 23px;
+    text-align:center;
+    line-height: 23px;
+	border: 1px solid #aaa;
+	background: #ccc;
+	font-size: 13px;
+	cursor: pointer;
+}
+#detail .buttonArea input:first-child{
+	margin: 0 70px;
+}

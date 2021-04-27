@@ -1,0 +1,118 @@
+@charset "utf-8";
+html,body{
+	position: relative;
+	width: 100%;
+	min-width: 1260px;
+    background: #e6e6e6;
+    color: #484b4a;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    margin:0;
+    padding:0;
+}
+body,button,input,select,textarea {
+    font:14px '\5FAE\8F6F\96C5\9ED1',arial,sans-serif;
+}
+fieldset,img {
+    border:none;
+}
+iframe {
+    display:block;
+}
+ol,ul {
+    list-style:none;
+}
+ins,a {
+    text-decoration:none;
+    color: #333333;
+}
+header,nav,article,section,aside,footer{
+	display:block;
+}
+a:focus,*:focus {
+    outline:none;
+}
+i{
+	font-style: normal;
+	display: inline-block;
+}
+.clearFix:after{
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.clearFix{
+	zoom: 1;
+}
+.fl,.fr {
+    display:inline;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.hide {
+    display:none;
+}
+.block {
+    display:block;
+}
+.center{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.flex{
+	display: -webkit-box;  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;     /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;  /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex;
+}
+.f_05{    
+	-webkit-box-flex: 0.5;   /* OLD - iOS 6-, Safari 3.1-6 */  
+    -moz-box-flex: 0.5;     /* OLD - Firefox 19- */  
+    -webkit-flex: 0.5;      /* Chrome */  
+    -ms-flex: 0.5;         /* IE 10 */  
+    flex: 0.5;        
+}
+.f_08{    
+	-webkit-box-flex: 0.8;   /* OLD - iOS 6-, Safari 3.1-6 */  
+    -moz-box-flex: 0.8;     /* OLD - Firefox 19- */  
+    -webkit-flex: 0.8;      /* Chrome */  
+    -ms-flex: 0.8;         /* IE 10 */  
+    flex: 0.8;        
+}
+.f_1{    
+	-webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */  
+    -moz-box-flex: 1;     /* OLD - Firefox 19- */  
+    -webkit-flex: 1;      /* Chrome */  
+    -ms-flex: 1;         /* IE 10 */  
+    flex: 1;        
+}
+.f_2{    
+	-webkit-box-flex: 2;   /* OLD - iOS 6-, Safari 3.1-6 */  
+    -moz-box-flex: 2;     /* OLD - Firefox 19- */         
+    -webkit-flex: 2;      /* Chrome */  
+    -ms-flex: 2;         /* IE 10 */  
+    flex: 2;
+}
+.f_3{         
+	-webkit-box-flex: 3;   /* OLD - iOS 6-, Safari 3.1-6 */  
+    -moz-box-flex: 3;     /* OLD - Firefox 19- */     
+    -webkit-flex: 3;      /* Chrome */  
+    -ms-flex: 3;         /* IE 10 */  
+    flex: 3;
+}
+.jusitfy{
+	text-align: justify;
+	text-justify: inter-ideograph;
+}

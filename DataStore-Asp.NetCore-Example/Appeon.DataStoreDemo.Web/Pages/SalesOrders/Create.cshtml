@@ -1,0 +1,354 @@
+﻿@page
+@model Appeon.MvcModelMapperDemo.Pages.SalesOrders.CreateModel
+@{
+    ViewData["Title"] = "Order Create";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SnapObjects Asp.NetCore Demo</title>
+
+    <!-- Bootstrap -->
+    <link href="~/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="~/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Switchery -->
+    <link href="~/vendors/switchery/dist/switchery.min.css" rel="stylesheet">
+    <!-- bootstrap-daterangepicker -->
+    <link href="~/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+    <!-- bootstrap-datetimepicker -->
+    <link href="~/vendors/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.css" rel="stylesheet">
+    <!-- Select2 -->
+    @*<link href="~/vendors/select2/dist/css/select2.min.css" rel="stylesheet">*@
+    <!-- Switchery -->
+    <link href="~/vendors/switchery/dist/switchery.min.css" rel="stylesheet">
+    <!-- PNotify -->
+    <link href="~/vendors/pnotify/dist/pnotify.css" rel="stylesheet">
+    <link href="~/vendors/pnotify/dist/pnotify.buttons.css" rel="stylesheet">
+    <link href="~/vendors/pnotify/dist/pnotify.nonblock.css" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link href="~/css/custom.min.css" rel="stylesheet">
+</head>
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="index.html" class="site_title">
+                            <img src="~/images/appeon.svg">
+                            <i class="fa fa-paw"></i> <span>Appeon Demo!</span>
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <!-- menu profile quick info -->
+                    <div class="profile clearfix">
+                        <div class="profile_pic">
+                            <img src="~/images/user.png" alt="..." class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>Welcome,</span>
+                            <h2>Admin</h2>
+                        </div>
+                    </div>
+                    <!-- /menu profile quick info -->
+                    <br />
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <script src="~/js/menu.js"></script>
+                    </div>
+                    <!-- /sidebar menu -->
+                    <!-- /menu footer buttons -->
+                    <!-- /menu footer buttons -->
+                </div>
+            </div>
+            <!-- top navigation -->
+            <script src="~/js/profile.js"></script>
+            <!-- /top navigation -->
+            <!-- page content -->
+            <div class="right_col" role="main">
+                <div class="">
+                </div>
+                <div class="clearfix"></div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2>Add Order <small></small></h2>
+                                <ul class="nav navbar-right panel_toolbox">
+                                    <li>@*<button type="button" id="btnAddDetail" class="btn"  >Add Order Detail</button>*@</li>
+                                    <li>
+                                        <a id="a_collapse" class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li>
+                                                <a href="#">Settings 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Settings 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="close-link"><i class="fa fa-close"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <br />
+                                <form id="demo-form2" method="post" data-parsley-validate class="form-horizontal form-label-left ">
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Sales Order ID <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <input type="text" asp-for="SalesOrder.SalesOrderID" readonly="readonly" class="form-control col-md-7 col-xs-12" placeholder="Sales Order ID">
+                                        </div>
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Order Date <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class='input-group date' id='myDatepicker1'>
+                                                <div style="float:left;width:80%">
+                                                    <input type='text' class="form-control" id="OrderDate" required="required" asp-for="SalesOrder.OrderDate" />
+                                                </div>
+                                                <span class="input-group-addon" style="float: left;width:38px;height: 34px;">
+                                                    <span class="glyphicon glyphicon-calendar"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="OnlineOrderFlag">
+                                            Online Order Flag <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <input type="checkbox" asp-for="SalesOrder.OnlineOrderFlag" class="form-control col-md-7 col-xs-12 js-switch" checked />
+                                        </div>
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="Status">
+                                            Status <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <select class="form-control" required asp-for="SalesOrder.Status">
+                                                <option value="">Choose Status</option>
+                                                <option value="1" selected="selected">In process</option>
+                                                <option value="2">Approved</option>
+                                                <option value="3">Backordered</option>
+                                                <option value="4">Rejected</option>
+                                                <option value="5">Shipped</option>
+                                                <option value="6">Cancelled</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Due Date <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class='input-group date' id='myDatepicker2'>
+                                                <div style="float:left;width:80%">
+                                                    <input type='text' class="form-control" id="DueDate" required="required" asp-for="SalesOrder.DueDate" />
+                                                </div>
+                                                <span class="input-group-addon" style="float: left;width:38px;height: 34px;">
+                                                    <span class="glyphicon glyphicon-calendar"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Ship Date <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class='input-group date' id='myDatepicker3'>
+                                                <div style="float:left;width:80%">
+                                                    <input type='text' class="form-control" id="ShipDate" required="required" asp-for="SalesOrder.ShipDate" />
+                                                </div>
+                                                <span class="input-group-addon" style="float: left;width:38px;height: 34px;">
+                                                    <span class="glyphicon glyphicon-calendar"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Customer <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <select class="form-control" required asp-for="SalesOrder.CustomerID" id="customerSelect" asp-items="Model.Customers">
+                                                <option>Choose Customer</option>
+                                            </select>
+                                        </div>
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Credit Card ID <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <select class="form-control" required id="creditCardID" asp-for="SalesOrder.CreditCardID">
+                                                <option value="">Choose Credit Card</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Bill To Address <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <select class="form-control" id="billToAddressID" required asp-for="SalesOrder.BillToAddressID">
+                                                <option value="">Choose Address</option>
+                                            </select>
+                                        </div>
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Ship To Address <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <select class="form-control" id="shipToAddressID" required asp-for="SalesOrder.ShipToAddressID">
+                                                <option value="">Choose Address</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            PO Number <span class="required"></span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <input class="form-control col-md-7 col-xs-12" asp-for="SalesOrder.PurchaseOrderNumber" type="text">
+                                        </div>
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Ship Method <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <select class="form-control" required asp-for="SalesOrder.ShipMethodID" asp-items="Model.ShipMethods">
+                                                <option value="">Choose Ship Method</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Account Number <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <input asp-for="SalesOrder.AccountNumber" class="form-control col-md-7 col-xs-12" required="required" type="text">
+                                        </div>
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Card Approval Code <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <input asp-for="SalesOrder.CreditCardApprovalCode" class="form-control col-md-7 col-xs-12" required="required" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Subtotal <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <input type="number" asp-for="SalesOrder.SubTotal" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Tax Amount <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <input type="number" asp-for="SalesOrder.TaxAmt" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Freight <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <input type="number" asp-for="SalesOrder.Freight" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Total Due <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <input type="number" asp-for="SalesOrder.TotalDue" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12">
+                                            Comments <span class="required"></span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <textarea class="form-control" asp-for="SalesOrder.Comment" rows="3" placeholder="Comments"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="ln_solid"></div>
+                                    <div class="form-group">
+                                        <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                                            <a href="./Index" id="cancel" class="btn btn-primary">Cancel</a>
+                                            @*<button class="btn btn-primary" type="reset">Reset</button>*@
+                                            <button type="button" id="submit" class="btn btn-success">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /page content -->
+        <!-- footer content -->
+        <footer>
+            <div class="pull-right">
+                Copyright © 2019 Appeon. All rights reserved.
+            </div>
+            <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+    </div>
+    <!-- jQuery -->
+    <script src="~/vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+    <!-- bootstrap-daterangepicker -->
+    <script src="~/vendors/moment/min/moment.min.js"></script>
+    <script src="~/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <script src="~/vendors/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+
+    <!-- jQuery Tags Input -->
+    <script src="~/vendors/jquery.tagsinput/src/jquery.tagsinput.js"></script>
+    <!-- Switchery -->
+    <script src="~/vendors/switchery/dist/switchery.min.js"></script>
+    <!-- Parsley -->
+    <script src="~/vendors/parsleyjs/dist/parsley.min.js"></script>
+    <!-- Autosize -->
+    <script src="~/vendors/autosize/dist/autosize.min.js"></script>
+    <!-- jQuery autocomplete -->
+    <script src="~/vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js"></script>
+    <!-- PNotify -->
+    <script src="../vendors/pnotify/dist/pnotify.js"></script>
+    <script src="../vendors/pnotify/dist/pnotify.buttons.js"></script>
+    <script src="../vendors/pnotify/dist/pnotify.nonblock.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="~/js/custom.min.js"></script>
+    <script type="text/javascript" src="~/js/orderCreate.js"></script>
+    <script type="text/javascript" src="~/js/order.js"></script>
+    <script>
+        $('#myDatepicker1').datetimepicker({
+        });
+        $('#myDatepicker2').datetimepicker({
+        });
+
+        $('#myDatepicker3').datetimepicker({
+            /*format: 'DD/MM/YYYY'*/
+        });
+    </script>
+</body>
+</html>
+

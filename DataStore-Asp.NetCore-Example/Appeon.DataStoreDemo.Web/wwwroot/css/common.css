@@ -1,0 +1,12 @@
+﻿.detail.row.span-validator {
+    margin-left: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.detail .row span {
+    font-size: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+}

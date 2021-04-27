@@ -1,0 +1,183 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+#titleBar{
+	justify-content: space-between;
+	align-items: center;
+	height: 35px;
+	background: #fff;
+}
+#titleBar .name{
+	font-size: 0;
+}
+#titleBar .name .icon{
+	margin: 0 5px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/CRM.ico);
+	vertical-align: middle;
+}
+#titleBar .name span{
+	vertical-align: middle;
+	font-size: 13px;
+}
+#titleBar .clolse{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#main{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 35px;
+	bottom: 0;
+	background: #e6e6e6;
+}
+
+#menu{
+	width: 150px;
+	justify-content: center;
+}
+#menu li{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 0;
+	cursor: pointer;
+}
+@media only screen and (max-height:580px ) {
+	#menu li{
+		margin-top: 15px;
+	}
+}
+@media only screen and (max-height:540px ) {
+	#menu li{
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-height:500px ) {
+	#menu li{
+		margin-top: 5px;
+	}
+}
+#menu li .img{
+	margin: 0 auto;
+	width: 35px;
+	height: 35px;
+	background-size: 100%;
+}
+#menu li.select .img{
+	background-position-y: bottom;
+}
+#menu li.address .img{
+	background-image: url(../images/tab_01.png);
+}
+#menu li.customer .img{
+	background-image: url(../images/tab_02.png);
+}
+#menu li.product .img{
+	background-image: url(../images/tab_03.png);
+}
+#menu li.order .img{
+	background-image: url(../images/tab_04.png);
+}
+#menu li.statistics .img{
+	background-image: url(../images/tab_05.png);
+}
+#menu li.settings .img{
+	background-image: url(../images/tab_06.png);
+}
+#menu li.quit .img{
+	background-image: url(../images/quit.png);
+}
+#menu li .text{
+	font-size: 15px;
+}
+
+#template{
+	position: absolute;
+	top: 0;
+	left: 150px;
+	right: 0;
+	bottom: 0;
+	background: #fff url(../images/background.PNG) center/auto 100% no-repeat;
+}
+#template .page{
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #e6e6e6;
+}
+
+#template .settings{
+	display: none;
+	border: 1px solid #1883d7;
+	padding: 5px;
+	width: 525px;
+	height: 320px;
+	background: #fff;
+	box-shadow: 0 0 25px #d8d8d8;
+}
+#template .settings .title{
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+#template .settings .row{
+	margin-top: 20px;
+}
+#template .settings .row.flex>div:first-child{
+	margin: 0 45px 0 164px;
+}
+#template .settings .row.flex>div input,
+#template .settings .row.flex>div label{
+	vertical-align: middle;
+	cursor: pointer;
+}
+#template .settings .row>label{
+	display: inline-block;
+	width: 160px;
+	text-align: right;
+	vertical-align: middle;
+}
+#template .settings .row input[type='text']{
+	border: 1px solid #b3b3b3;
+	padding-left: 5px;
+	width: 218px;
+	height: 23px;
+	vertical-align: middle;
+}
+#template .settings .row select{
+	border: 1px solid #b3b3b3;
+	padding-left: 5px;
+	width: 225px;
+	height: 25px;
+	vertical-align: middle;
+}
+#template .settings .row p{
+	font-size: 12px;
+	margin: 0 136px 0 164px;
+}
+#template .settings .buttonArea{
+	margin-top: 40px;
+	font-size: 0;
+}
+#template .settings .buttonArea input{
+	width: 77px;
+	height: 23px;
+	border: 1px solid #aaa;
+	background: #ccc;
+	font-size: 13px;
+	cursor: pointer;
+}
+#template .settings .buttonArea input:first-child{
+	margin: 0 70px 0 164px;
+}

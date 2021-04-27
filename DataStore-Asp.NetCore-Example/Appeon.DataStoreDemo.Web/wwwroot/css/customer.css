@@ -1,0 +1,104 @@
+#menu .list .customer .img {
+    background-position-y: bottom;
+}
+#browse .tableArea{
+	position: absolute;
+	top: 60px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	overflow: auto;
+}
+.box{
+	overflow: auto;
+}
+#detail .detail .title{
+	margin: 0 0 10px 0;
+	font-size: 16px;
+}
+#detail .content{
+	padding: 20px 15px 10px 15px;
+	border: 1px solid #b3b3b3;
+	background: #fff;
+}
+#detail .detail .row{
+	margin-bottom: 10px;
+}
+#detail .detail .row input:not(.radio){
+	padding-left: 5px;
+	outline: none;
+	border: 1px solid #b3b3b3;
+	width: 147px;
+	height: 23px;
+}
+#detail .detail .row label:not(.label){
+	display: inline-block;
+	width: 115px;
+	text-align: right;
+}
+#detail .detail .row input,
+#detail .detail .row label{
+	vertical-align: middle;
+}
+#detail .detail .row.flex>div{
+	margin-left: 20px;
+}
+#detail .detail .row.flex>div:first-child{
+	margin-left: 0;
+}
+#detail .detail .row span{
+	margin-left: 2px;
+	font-size: 18px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+#detail .detail .row select{
+	padding-left: 5px;
+	width: 728px;
+	height: 25px;
+	border: 1px solid #b3b3b3;
+	vertical-align: middle;
+}
+
+#detail .title{
+	margin: 15px 0 10px 0;
+	font-size: 16px;
+}
+#detail table select,
+#detail table input{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+#detail .address .tableArea,
+#detail .phone .tableArea{
+	height: 164px;
+	overflow: auto;
+}
+
+#detail .customer .inputArea{
+	padding: 20px 0 15px 0;
+	border: 1px solid #b3b3b3;
+	background: #fff;
+}
+#detail .customer .inputArea .row{
+	margin-bottom: 15px;
+}
+#detail .customer .inputArea input{
+	border: 1px solid #b3b3b3;
+	padding-left: 5px;
+	width: 243px;
+	height: 23px;
+}
+#detail .customer .inputArea select{
+	border: 1px solid #b3b3b3;
+	padding-left: 5px;
+	width: 243px;
+	height: 25px;
+}
+#detail .customer .inputArea label{
+	display: inline-block;
+	width: 182px;
+	text-align: right;
+}

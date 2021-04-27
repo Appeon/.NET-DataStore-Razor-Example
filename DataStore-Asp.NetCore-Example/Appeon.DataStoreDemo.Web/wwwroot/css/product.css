@@ -1,0 +1,102 @@
+.box{
+	overflow: auto;
+}
+#menu .list .order .img {
+    background-position-y: bottom;
+}
+#browse .tableArea{
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	top: 68px;
+	bottom: 20px;
+	overflow: auto;
+}
+
+#browse .tableArea2 {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 568px;
+    bottom: 20px;
+    overflow: auto;
+}
+
+.detail{
+	background: #fff;
+	padding: 20px 0 10px 0;
+}
+.detail .row{
+	margin-bottom: 10px;
+    height:30px;
+}
+.detail .row label{
+	display: inline-block;
+	width: 155px;
+	text-align: right;
+	vertical-align: middle;
+}
+    .detail .row label1 {
+        display: inline-block;
+        text-align: left;
+    }
+
+#detail .address .tableArea {
+    height: 164px;
+    overflow: auto;
+}
+.detail .row input[type="text"],
+.detail .row input[type="number"],
+.detail .row input[type="date"],
+.detail .row select,
+#detailModal .inputArea .row input,
+#detailModal .inputArea .row select{
+	padding-left: 5px;
+	width: 193px;
+	height: 25px;
+	border: 1px solid #b3b3b3;
+	vertical-align: middle;
+	background-color: #fff;
+}
+.detail .row input.address{
+	width: 453px;
+}
+
+.detail .row.flex>div{
+	margin-left: 10px;
+	width: 400px;
+}
+.detail .row input[type="radio"] {
+        margin-left: 10px;
+}
+.detail .row input[type="checkbox"]{
+	margin-left: 153px;
+	width: 15px;
+	height: 15px;
+}
+.detail .row input[type="checkbox"]+label{
+	margin-left: 5px;
+	text-align: left;
+	width: 123px;
+}
+.detail .row textarea{
+	padding: 5px;
+	resize: none;
+	width: 573px;
+	height: 35px;
+}
+
+#detail .orderDetail .title{
+	font-size: 14px;
+	margin: 20px 0 10px 0;
+	line-height: 23px;
+}
+#detail .orderDetail table td input {
+    border: none;
+}
+
+#detailModal .inputArea .row label {
+    width: 140px;
+    text-align: right;
+    margin-right: 5px;
+}

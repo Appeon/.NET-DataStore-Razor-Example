@@ -1,0 +1,170 @@
+﻿@page
+@model Appeon.MvcModelMapperDemo.Pages.SalesOrders.IndexModel
+@{
+    ViewData["Title"] = "Order";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SnapObjects Asp.NetCore Demo</title>
+
+    <!-- Bootstrap -->
+    <link href="~/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="~/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Datatables -->
+    <link href="~/vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
+    <!-- PNotify -->
+    <link href="~/vendors/pnotify/dist/pnotify.css" rel="stylesheet">
+    <link href="~/vendors/pnotify/dist/pnotify.buttons.css" rel="stylesheet">
+    <link href="~/vendors/pnotify/dist/pnotify.nonblock.css" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link href="~/css/custom.min.css" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="index.html" class="site_title">
+                            <img src="~/images/appeon.svg">
+                            <i class="fa fa-paw"></i> <span>Appeon Demo!</span>
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <!-- menu profile quick info -->
+                    <div class="profile clearfix">
+                        <div class="profile_pic">
+                            <img src="~/images/user.png" alt="..." class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>Welcome,</span>
+                            <h2>Admin</h2>
+                        </div>
+                    </div>
+                    <!-- /menu profile quick info -->
+                    <br />
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <script src="~/js/menu.js"></script>
+                    </div>
+                    <!-- /sidebar menu -->
+                    <!-- /menu footer buttons -->
+                    <!-- /menu footer buttons -->
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <script src="~/js/profile.js"></script>
+            <!-- /top navigation -->
+            <!-- page content -->
+            <div class="right_col" role="main">
+                <div class="">
+                    <div class="clearfix"></div>
+                    <form method="get">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="x_panel">
+                                    <div class="x_title">
+                                        <h2>Order List<small></small></h2>
+                                        <div class="nav navbar-right panel_toolbox">
+                                            <a asp-page="./Create" class="btn btn-primary">Add Order</a>
+                                            <a id="btnDel" class="btn btn-danger">Delete</a>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="x_content">
+                                        <table id="datatable-checkbox1" class="table table-striped jambo_table bulk_action projects">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>
+                                                        Operation
+                                                    </th>
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.SalesOrders[0].SalesOrderID)
+                                                    </th>
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.SalesOrders[0].OrderDate)
+                                                    </th>
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.SalesOrders[0].CustomerID)
+                                                    </th>
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.SalesOrders[0].Status)
+                                                    </th>
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.SalesOrders[0].SalesOrderNumber)
+                                                    </th>
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.SalesOrders[0].ShipToAddressID)
+                                                    </th>
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.SalesOrders[0].SubTotal)
+                                                    </th>
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.SalesOrders[0].TaxAmt)
+                                                    </th>
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.SalesOrders[0].Freight)
+                                                    </th>
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.SalesOrders[0].TotalDue)
+                                                    </th>
+                                                    <th>
+                                                        @Html.DisplayNameFor(model => model.SalesOrders[0].ModifiedDate)
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- /page content -->
+            <!-- footer content -->
+            <footer>
+                <div class="pull-right">
+                    Copyright © 2019 Appeon. All rights reserved.
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+    </div>
+    @Html.AntiForgeryToken();
+    <!-- jQuery -->
+    <script src="~/vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Datatables -->
+    <script src="~/vendors/datatables.net/js/jquery.dataTables.js"></script>
+    <script src="~/vendors/datatables.net-bs/js/dataTables.bootstrap.js"></script>
+    <!-- PNotify -->
+    <script src="../vendors/pnotify/dist/pnotify.js"></script>
+    <script src="../vendors/pnotify/dist/pnotify.buttons.js"></script>
+    <script src="../vendors/pnotify/dist/pnotify.nonblock.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="~/js/custom.min.js"></script>
+    <script src="~/js/orderList.js"></script>
+</body>
+</html>
+
+
