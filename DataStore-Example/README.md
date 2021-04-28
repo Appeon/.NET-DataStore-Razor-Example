@@ -1,6 +1,6 @@
 ﻿# .NET-DataStore-Example
 
-This Class Library (.Net Core) project uses SqlModelMapper from [SnapObjects.Data](https://www.nuget.org/packages/SnapObjects.Data/) for creating services.  It shows how CRUD operations and transaction management works in SqlModelMapper.
+This Class Library (.Net Core) project uses .NET DataStore from [SnapObjects.Data](https://www.nuget.org/packages/SnapObjects.Data/) for creating services.  It shows how CRUD operations and transaction management works in SqlModelMapper.
 
 ##### Sample Project Structure
 
