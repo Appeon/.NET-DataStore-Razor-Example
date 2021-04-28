@@ -4,7 +4,7 @@ This Class Library (.Net Core) project uses .NET DataStore from [SnapObjects.Dat
 
 ##### Sample Project Structure
 
-The sample contains a Class Library (.Net Core) project. This project uses SqlModelMapper from [SnapObjects.Data](https://www.nuget.org/packages/SnapObjects.Data/), and is structured as follows.
+The sample contains a Class Library (.Net Core) project. This project uses .NET DataStore from [SnapObjects.Data](https://www.nuget.org/packages/SnapObjects.Data/), and is structured as follows.
 
 ```
 |——Appeon.SnapObjectsDemo.Service.SqlServer Project implemented with SqlModelMapper
