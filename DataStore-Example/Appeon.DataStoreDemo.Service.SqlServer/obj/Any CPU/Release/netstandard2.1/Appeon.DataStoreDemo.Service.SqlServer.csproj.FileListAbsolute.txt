@@ -1,8 +1,0 @@
-C:\work\demo\code\ds\razor\DataStore-Example\Appeon.DataStoreDemo.Service.SqlServer\bin\Any CPU\Release\netstandard2.1\Appeon.DataStoreDemo.Service.SqlServer.deps.json
-C:\work\demo\code\ds\razor\DataStore-Example\Appeon.DataStoreDemo.Service.SqlServer\bin\Any CPU\Release\netstandard2.1\Appeon.DataStoreDemo.Service.SqlServer.dll
-C:\work\demo\code\ds\razor\DataStore-Example\Appeon.DataStoreDemo.Service.SqlServer\bin\Any CPU\Release\netstandard2.1\Appeon.DataStoreDemo.Service.SqlServer.pdb
-C:\work\demo\code\ds\razor\DataStore-Example\Appeon.DataStoreDemo.Service.SqlServer\obj\Any CPU\Release\netstandard2.1\Appeon.DataStoreDemo.Service.SqlServer.AssemblyInfoInputs.cache
-C:\work\demo\code\ds\razor\DataStore-Example\Appeon.DataStoreDemo.Service.SqlServer\obj\Any CPU\Release\netstandard2.1\Appeon.DataStoreDemo.Service.SqlServer.AssemblyInfo.cs
-C:\work\demo\code\ds\razor\DataStore-Example\Appeon.DataStoreDemo.Service.SqlServer\obj\Any CPU\Release\netstandard2.1\Appeon.DataStoreDemo.Service.SqlServer.csproj.CoreCompileInputs.cache
-C:\work\demo\code\ds\razor\DataStore-Example\Appeon.DataStoreDemo.Service.SqlServer\obj\Any CPU\Release\netstandard2.1\Appeon.DataStoreDemo.Service.SqlServer.dll
-C:\work\demo\code\ds\razor\DataStore-Example\Appeon.DataStoreDemo.Service.SqlServer\obj\Any CPU\Release\netstandard2.1\Appeon.DataStoreDemo.Service.SqlServer.pdb
