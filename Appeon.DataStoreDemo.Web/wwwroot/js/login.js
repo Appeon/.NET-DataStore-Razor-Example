@@ -18,7 +18,7 @@ $(function () {
                         type: 'success',
                         styling: 'bootstrap3'
                     });
-                    window.location.href = "/Index"
+                    window.location.href = indexUrl
                 } else {
                     new PNotify({
                         title: 'Login Fail',

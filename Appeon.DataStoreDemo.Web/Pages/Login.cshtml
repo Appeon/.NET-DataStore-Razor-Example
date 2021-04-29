@@ -12,15 +12,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="~/images/favicon.ico" type="image/ico" />
 
     <title>Appeon ModelMapper Demo </title>
 
     <!-- Bootstrap -->
     <link href="~/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- NProgress -->
-    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <link href="~/vendors/nprogress/nprogress.css" rel="stylesheet">
     <!-- iCheck -->
     <link href="~/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
     <!-- PNotify -->
@@ -29,6 +30,10 @@
     <link href="~/vendors/pnotify/dist/pnotify.nonblock.css" rel="stylesheet">
     <!-- Custom Theme Style -->
     <link href="~/css/custom.min.css" rel="stylesheet">
+    <script>
+
+        var indexUrl = '@Url.Content("~/Index")';
+    </script>
 </head>
 <body class="login">
     <div>
@@ -83,13 +88,13 @@
                             <input type="password" class="form-control" placeholder="Password" required="" />
                         </div>
                         <div>
-                            <a class="btn btn-default submit" href="/Index">Submit</a>
+                            <a class="btn btn-default submit" href="~/Index">Submit</a>
                         </div>
                         <div class="clearfix"></div>
                         <div class="separator">
                             <p class="change_link">
                                 Already a member ?
-                                <a href="/Index" class="to_register"> Log in </a>
+                                <a href="~/Index" class="to_register"> Log in </a>
                             </p>
                             <div class="clearfix"></div>
                             <br />

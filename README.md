@@ -31,7 +31,7 @@ The project is structured as follows.
 
    ```json
    //Keep the database connection name as the default “AdventureWorks2012” or change it to a name you prefer to use, and change the Data Source, User ID, Password and Initial Catalog according to the actual settings
-   "ConnectionStrings": { "AdventureWorks2012": "Data Source=127.0.0.1; Initial Catalog=AdventureWorks2012; Integrated Security=False; User ID=sa; Password=123456; Pooling=True; Min Pool Size=0; Max Pool Size=100; ApplicationIntent=ReadWrite" } 
+   "ConnectionStrings": { "AdventureWorks2012": "Data Source=127.0.0.1; Initial Catalog=AdventureWorks; Integrated Security=False; User ID=sa; Password=123456; Pooling=True; Min Pool Size=0; Max Pool Size=100; ApplicationIntent=ReadWrite" } 
    ```
 
 5. In the ConfigureServices method of *Startup.cs*, go to the following line, and make sure the ConnectionString name is the same as the database connection name specified in step #4.
