@@ -21,7 +21,7 @@ The project is structured as follows.
 ```
 ##### Setting Up the Project
 
-1. Dowload the project and save it to your local directory. 
+1. Download the project and save it to your local directory. 
 
 2. Open the *DataStore-Asp.NetCore-Example.sln* solution in Visual Studio 2019 or another C# development IDE.
 
