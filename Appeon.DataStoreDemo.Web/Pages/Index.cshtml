@@ -13,9 +13,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="~/images/favicon.ico" type="image/ico" />
+    <link rel="icon" href="~/images/RapidSharp.ico" type="image/ico" />
 
-    <title>Appeon ModelMapper Demo!</title>
+    <title>.NET DataStore Razor Pages</title>
 
     <!-- Bootstrap -->
     <link href="~/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -129,7 +129,7 @@
         <!-- footer content -->
         <footer>
             <div class="pull-right">
-                Copyright © 2019 Appeon. All rights reserved.
+                Copyright © 2021 Appeon. All rights reserved.
             </div>
             <div class="clearfix"></div>
         </footer>
@@ -140,12 +140,14 @@
     <script src="~/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="~/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap-confirm.js"></script>
     <!-- bootstrap-daterangepicker -->
     <script src="~/vendors/moment/min/moment.min.js"></script>
     <script src="~/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
     <script src="~/vendors/echarts/dist/echarts.min.js"></script>
     <!-- Custom Theme Scripts -->
     <script src="~/js/custom.min.js"></script>
+    <script src="~/js/bootstarpbox.js"></script>
     <script>
         $(document).ready(function () {
             var Json_Categorys = @Html.Raw(Model.categoryReportByYear.Json_Categorys);

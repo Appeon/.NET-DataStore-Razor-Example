@@ -139,6 +139,8 @@ namespace Appeon.MvcModelMapperDemo.Pages.SalesOrders
             {
                 ConvertData(SalesOrder);
 
+                DataValidation(SalesOrder);
+
                 var insertedCount = await _salesOrderService.CreateAsync(SalesOrder);
             }
             catch (Exception e)

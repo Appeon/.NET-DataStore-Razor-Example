@@ -184,6 +184,8 @@ namespace Appeon.MvcModelMapperDemo.Pages.SalesOrders
             {
                 ConvertData(SalesOrder);
 
+                DataValidation(SalesOrder);
+
                 SalesOrder.ModifiedDate = DateTime.Now;
 
                 var modifiedCount = await _salesOrderService.UpdateAsync(SalesOrder);

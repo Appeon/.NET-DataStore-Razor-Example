@@ -153,6 +153,13 @@ html , body{
     z-index: 9999;
     position: absolute
 }
+.nav-sm .container.body .col-md-3 .navbar.nav_title a, .nav-sm .container.body .col-md-3 .navbar.nav_title span {
+    display: none;
+}
+.nav-sm .container.body .col-md-3 .navbar.nav_title .fa {
+    font-size: 22px;
+    color: #ECF0F1;
+}
 .nav-sm .container.body .col-md-3.left_col.menu_fixed {
     position: fixed;
     height: 100%
@@ -170,17 +177,20 @@ html , body{
     z-index: 2
 }
 .nav-sm .navbar.nav_title {
-    width: 70px
+    width: 70px;
+    margin-bottom: 0;
 }
-.nav-sm .navbar.nav_title a span {
+.nav-sm .navbar.nav_title,.nav-sm .left_col br {
     display: none
 }
-.nav-sm .navbar.nav_title a i {
+.nav-sm .navbar.nav_title div i {
     font-size: 27px;
-    margin: 13px 0 0 3px
+    margin: 23px;
+    color: #ECF0F1;
 }
 .site_title i {
-    border: 1px solid #EAEAEA;
+    /*border: 1px solid #EAEAEA;*/
+    margin-left:5px;
     padding: 5px 6px;
     border-radius: 50%
 }
@@ -341,10 +351,16 @@ html , body{
     min-height: 100%;
     width: 230px;
     padding: 0;
-    position: absolute;
+    position: fixed;
     display: -ms-flexbox;
     display: flex;
     z-index: 1
+}
+.nav-md .container.body .col-md-3.left_col .navbar.nav_title div {
+    display: none;
+    font-size: 22px;
+    color: #ecf0f1;
+    margin: 10px;
 }
 .nav-md .container.body .col-md-3.left_col.menu_fixed {
     height: 100%;
@@ -674,7 +690,7 @@ a:focus {
     text-decoration: none
 }
 .navbar {
-    margin-bottom: 0
+    margin-bottom: 0px;
 }
 .navbar-header {
     background: #34495E

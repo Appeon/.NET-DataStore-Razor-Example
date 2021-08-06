@@ -38,21 +38,22 @@ namespace Appeon.DataStoreDemo.Services
 
             salesOrderDetail.RemoveAll(x => x.ProductID > 0);
             salesOrder.RemoveAt(0);
-
-            await _context.BeginTransactionAsync();
+            
+            await _context.BeginTransactionAsync(cancellationToken);
 
             int updateCount = 0;
 
             try
             {
                 await salesOrderDetail.UpdateAsync(cancellationToken);
+
                 updateCount = await salesOrder.UpdateAsync(cancellationToken);
 
-                salesOrder.Update();
+                await _context.CommitAsync(cancellationToken);
             }
             catch (System.Exception)
             {
-                await _context.RollbackAsync();
+                await _context.RollbackAsync(cancellationToken);
             }
 
             return updateCount;

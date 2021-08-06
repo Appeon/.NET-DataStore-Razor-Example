@@ -11,9 +11,9 @@
 	    <None Remove="Pages\NewFolder\**" />
     </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\DataStore-Example\Appeon.DataStoreDemo.Service.SqlServer\Appeon.DataStoreDemo.Service.SqlServer.csproj" />
-  </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Appeon.DataStoreDemo.Service.SqlServer\Appeon.DataStoreDemo.Service.SqlServer.csproj" />
+    </ItemGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <TypeScriptTarget>ES5</TypeScriptTarget>

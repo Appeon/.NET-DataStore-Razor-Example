@@ -72,5 +72,12 @@ namespace Appeon.MvcModelMapperDemo.Models
                 }
             }
         }
+
+        protected void DataValidation(SalesOrder SalesOrder)
+        {
+            if (SalesOrder.DueDate < SalesOrder.OrderDate || SalesOrder.ShipDate < SalesOrder.OrderDate)
+
+                throw new Exception("The \"Due Date\" and \"Ship Date\" must not be less than the \"Order Date\"!");
+        }
     }
 }

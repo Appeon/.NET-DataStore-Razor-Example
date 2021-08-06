@@ -12,9 +12,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="~/images/favicon.ico" type="image/ico" />
+    <link rel="icon" href="~/images/RapidSharp.ico" type="image/ico" />
 
-    <title>SnapObjects Asp.NetCore Demo</title>
+    <title>.NET DataStore Razor Pages</title>
 
     <!-- Bootstrap -->
     <link href="~/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -103,9 +103,9 @@
                                         <div class="col-md-3 col-sm-6 col-xs-12">
                                             <div class="input-group date" id="myDatepicker1">
                                                 <div style="float:left;width:80%">
-                                                    <input type='text' class="form-control" required="required" readonly="readonly" asp-for="SalesOrder.OrderDate" />
+                                                    <input type="text" class="form-control" required="required" readonly="readonly" asp-for="SalesOrder.OrderDate" />
                                                 </div>
-                                                <span class="input-group-addon" style="float:left; width:38px; height:34px;">
+                                                <span class="input-group-addon" style="float: left;width:38px;height: 34px;">
                                                     <span class="glyphicon glyphicon-calendar"></span>
                                                 </span>
                                             </div>
@@ -139,9 +139,9 @@
                                             Due Date <span class="required">*</span>
                                         </label>
                                         <div class="col-md-3 col-sm-6 col-xs-12">
-                                            <div class='input-group date' id='myDatepicker2'>
+                                            <div class="input-group date" id="myDatepicker2">
                                                 <div style="float:left;width:80%">
-                                                    <input type='text' class="form-control" id="DueDate" required="required" asp-for="SalesOrder.DueDate" />
+                                                    <input type="text" class="form-control" id="DueDate" required="required" asp-for="SalesOrder.DueDate" />
                                                 </div>
                                                 <span class="input-group-addon" style="float: left;width:38px;height: 34px;">
                                                     <span class="glyphicon glyphicon-calendar"></span>
@@ -152,9 +152,9 @@
                                             Ship Date <span class="required">*</span>
                                         </label>
                                         <div class="col-md-3 col-sm-6 col-xs-12">
-                                            <div class='input-group date' id='myDatepicker3'>
+                                            <div class="input-group date" id="myDatepicker3">
                                                 <div style="float:left;width:80%">
-                                                    <input type='text' class="form-control" id="ShipDate" required="required" asp-for="SalesOrder.ShipDate" />
+                                                    <input type="text" class="form-control" id="ShipDate" required="required" asp-for="SalesOrder.ShipDate" />
                                                 </div>
                                                 <span class="input-group-addon" style="float: left;width:38px;height: 34px;">
                                                     <span class="glyphicon glyphicon-calendar"></span>
@@ -503,7 +503,7 @@
         <!-- footer content -->
         <footer>
             <div class="pull-right">
-                Copyright © 2019 Appeon. All rights reserved.
+                Copyright © 2021 Appeon. All rights reserved.
             </div>
             <div class="clearfix"></div>
         </footer>
@@ -538,22 +538,11 @@
     <script src="~/js/custom.min.js"></script>
     <script type="text/javascript" src="~/js/orderEdit.js"></script>
     <script type="text/javascript" src="~/js/order.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap-confirm.js"></script>
+    <script src="~/js/bootstarpbox.js"></script>
     <script>
-        $('#myDatepicker1').datetimepicker({
-            //format: 'DD/MM/YYYY'
-            format: 'YYYY/MM/DD'
-        });
-        $('#myDatepicker2').datetimepicker({
-            //format: 'DD/MM/YYYY'
-            format: 'YYYY/MM/DD'
-        });
-
-        $('#myDatepicker3').datetimepicker({
-            //format: 'DD/MM/YYYY'
-            format: 'YYYY/MM/DD'
-        });
-        $('#myDatepicker4').datetimepicker({
-            format: 'DD/MM/YYYY'
+        $('#myDatepicker2,#myDatepicker3,#myDatepicker4').datetimepicker({
+            showTodayButton: true
         });
 
         function redirect(to) {

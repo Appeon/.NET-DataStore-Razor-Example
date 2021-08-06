@@ -46,13 +46,13 @@ namespace Appeon.MvcModelMapperDemo.Pages
         {
             totalData = await _reportService.SearchReportForSalesOrderTotalAsync();
             //转换json
-            String Json_totalData = Newtonsoft.Json.JsonConvert.SerializeObject(totalData);
+            var Json_totalData = Newtonsoft.Json.JsonConvert.SerializeObject(totalData);
             categoryReportByYear.Json_totalData = Json_totalData;
         }
 
         private async Task queryPieReportAsync(CancellationToken cancellationToken = default)
         {
-            String curDate = "2013-01-01";
+            var curDate = "2013-01-01";
             var curYear = DateTime.Parse(curDate).Year.ToString();
             var lastYear = DateTime.Parse(curDate).AddYears(-1).Year.ToString();
             var masterModel = new CategorySalesReportByYear();
@@ -61,12 +61,14 @@ namespace Appeon.MvcModelMapperDemo.Pages
             categoryReportByYear = await _reportService
                 .SearchReportForSales(masterModel, subModel, curYear, lastYear, cancellationToken);
 
-            //转换json
-            String categorys = JsonConvert.SerializeObject(categoryReportByYear.SalesReportByCategory
-                                                            .Select(x => x.ProductCategoryName));
+            var salesReportByCategory = categoryReportByYear
+                .SalesReportByCategory
+                .OrderBy(a => a.ProductCategoryName);
 
-            String categorysData = JsonConvert.SerializeObject(categoryReportByYear.SalesReportByCategory
-                                                            .Select(x => new
+            //转换json
+            var categorys = JsonConvert.SerializeObject(salesReportByCategory.Select(x => x.ProductCategoryName));
+
+            var categorysData = JsonConvert.SerializeObject(salesReportByCategory.Select(x => new
                                                             {
                                                                 name = x.ProductCategoryName,
                                                                 value = x.TotalSalesqty
@@ -109,10 +111,12 @@ namespace Appeon.MvcModelMapperDemo.Pages
         /// <param name="yearMonth"></param>
         private void ConvertDataForReport(ProductCategorySalesReport productCategorySalesReport, object[] yearMonth)
         {
-            List<string> ProCategoryName = productCategorySalesReport
+            var ProCategoryName = productCategorySalesReport
                 .OrderReportMonth1
                 .Select(x => x.ProductCategoryName)
                 .ToList();
+
+            ProCategoryName.Sort();
 
             List<int> salesQtys = null;
             Dictionary<string, List<int>> result = new Dictionary<string, List<int>>();
@@ -134,8 +138,8 @@ namespace Appeon.MvcModelMapperDemo.Pages
                 result.Add(name, salesQtys);
             }
 
-            String proCat = JsonConvert.SerializeObject(ProCategoryName);
-            String proCatQty = JsonConvert.SerializeObject(result
+            var proCat = JsonConvert.SerializeObject(ProCategoryName);
+            var proCatQty = JsonConvert.SerializeObject(result
                                                             .Select(x => new
                                                             {
                                                                 name = x.Key,
