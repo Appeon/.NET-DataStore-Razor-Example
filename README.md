@@ -9,15 +9,15 @@ The project contains an ASP.Net Core Web Application project. it is implemented 
 The project is structured as follows.
 
 ```
-|—— Appeon.DataStoreDemo.Web			Project implemented with Razor Pages
-	|—— wwwroot							Includes the site js and css files
-	|—— Models							Includes the model classes
-	|—— Pages							Includes the Razor Pages
-    	|-- SalesOrders					Include  the Razor Page for the SalesOrder model
+|-- Appeon.DataStoreDemo.Web					Project implemented with Razor Pages
+	|—— wwwroot						Includes the site js and css files
+	|—— Models						Includes the model classes
+	|—— Pages						Includes the Razor Pages
+    	|-- SalesOrders						Include  the Razor Page for the SalesOrder model
 |-- Appeon.DataStoreDemo.Service.SqlServer Project implemented with DataStore
-    |-- Datacontext         			Includes the class that manages database connection to SQL 
-    |-- Models							Includes the model classes
-    |-- Services						Includes the service interfaces and implementations
+    	|-- Datacontext         				Includes the class that manages database connection to SQL 
+	|-- Models						Includes the model classes
+    	|-- Services						Includes the service interfaces and implementations
 ```
 ##### Setting Up the Project
 
