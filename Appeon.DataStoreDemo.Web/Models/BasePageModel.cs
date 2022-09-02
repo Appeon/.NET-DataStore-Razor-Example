@@ -37,7 +37,7 @@ namespace Appeon.MvcModelMapperDemo.Models
             String dueDate = this.Request.Form["SalesOrder.DueDate"];
             String shipDate = this.Request.Form["SalesOrder.ShipDate"];
 
-            if (!String.IsNullOrEmpty(orderDate) && SalesOrder.OrderDate == null)
+            if (!String.IsNullOrEmpty(orderDate))
             {
                 try
                 {
@@ -49,7 +49,7 @@ namespace Appeon.MvcModelMapperDemo.Models
                 {
                 }
             }
-            if (!String.IsNullOrEmpty(dueDate) && SalesOrder.DueDate == null)
+            if (!String.IsNullOrEmpty(dueDate))
             {
                 try
                 {
