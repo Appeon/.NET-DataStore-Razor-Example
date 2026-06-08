@@ -4,7 +4,7 @@ This ASP.NET Core project makes use of the Razor page, and reference to a Class 
 
 ##### Project Structure
 
-The project contains an ASP.Net Core Web Application project. it is implemented using [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-6.0&tabs=visual-studio). 
+The project contains an ASP.Net Core Web Application project. it is implemented using [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-10.0&tabs=visual-studio). 
 
 The project is structured as follows.
 
@@ -23,7 +23,7 @@ The project is structured as follows.
 
 1. Download the project and save it to your local directory. 
 
-2. Open the *DataStore-Asp.NetCore-Example.sln* solution in Visual Studio 2022 or another C# development IDE.
+2. Open the *DataStore-Asp.NetCore-Example.sln* solution in Visual Studio 2026 or another C# development IDE.
 
 3. Download the SQL Server database backup file from [.NET-Project-Example-Database](https://github.com/Appeon/.NET-Project-Example-Database), and restore the database using the downloaded database backup file.
 
